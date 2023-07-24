@@ -1,0 +1,84 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Computational Minimum"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "1. Monte-Carlo Simulation of 2D Ising Model\n",
+    " - Use Metropolis algorithm and obtain magnetization as the function of T.\n",
+    " - Apply finite size scaling to get $T_{c}$, $\\beta$, and $\\nu$."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "2. Langevin Dynamics of Brownian Particle\n",
+    "- Compute $<x^{2}>$ as the function of time $t$ and confirm the Einstein relation."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "3. Random Percolation Problem\n",
+    "- Start from N unconnected nodes and put a link at a time.\n",
+    "- Compute the size of giant component as a function of time $t$ and get $\\beta$."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "4. Watts-Strogatz Small-world Network\n",
+    "- Produce WS network and measure characteristic path length & clustering coefficient as function of $p$."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "5. Fully-connected Kuramoto Model\n",
+    "- Compute the order parameter $delta$ as a function of $K$.\n",
+    "- Find $K_{c}$."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "6. Sand-pile Model in 2D.\n",
+    "- Measure the avalanche size distribution."
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "base",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.12"
+  },
+  "orig_nbformat": 4
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
